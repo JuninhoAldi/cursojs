@@ -3,22 +3,40 @@ body{
 }
 
 .cabeçalho{
-    text-align: center;
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    align-items: center;
     margin: auto;
+    justify-content: space-between;
     border: 1px solid;
     padding-left: 10px;
     padding: 10px;
     padding-right: 10px;
-    width: 1100px;
+    width: 1310px;
     border-radius: 10px;
 }
-.cabeçalho h1 {
-    margin: auto; /* Adicionei essa linha para remover o margin do h1 */
-  }
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+}
   
-  #loja {
+#loja {
     margin-left: auto; 
-    width: 50px;
+    width: 80px;
+    height: 40px;
+  }
+
+  .criarItens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 1310px;
   }
