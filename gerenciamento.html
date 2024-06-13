@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciamento Loja</title>
+    <link rel="stylesheet" href="styleGer.css">
 </head>
 <body>
     <div class="container">
-        <h1>Gerenciamento dos Produtos</h1>
 
-        
+        <div class="cabeçalho">
+            <h1>Gerenciamento dos Produtos</h1>
+            <button onclick="loja()" id="loja">Loja</button>
+        </div> 
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+
+        <label for="descrição">Descrição:</label>
+        <input type="text" id="descrição">
+
+        <label for="preço">Preço:</label>
+        <input type="number" id="preço">
+
+        <button onclick="criarProduto()">Criar Produto</button>
     </div>
+
+    <script src="scriptGer.js"></script>
     
 </body>
 </html>
